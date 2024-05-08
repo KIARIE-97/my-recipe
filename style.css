@@ -1,0 +1,71 @@
+*{
+  
+    margin: 10px;
+    padding: 0;
+    
+}
+body{
+    height: 100%;
+    width :100%;
+    background-color: rgba(216, 188, 160, 0.5);
+    font-family: 'Young Serif, serif';
+}
+.container{
+    height: 100%;
+    width :70% ;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+}
+h2{
+    color: rgb(122, 18, 18);
+}
+.head_img{
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.preparation{
+    background-color: rgba(233, 158, 232, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.ingredients{
+    border-bottom: 1px solid rgba(87, 85, 85, 0.5);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.instructions{
+    border-bottom: 1px solid rgba(87, 85, 85, 0.5); /* This creates a solid black border with a thickness of 2 pixels */
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-decoration-thickness: 2px;
+   
+}
+.nutrition{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+.table{                                                                     
+    border-collapse: collapse;
+    padding: 10px;
+    /* margin: 0 auto; */
+    width: 100%;
+}
+th{
+    color: rgb(122, 18, 18) ;
+}
+td ,th{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: left;
+
+}
