@@ -48,6 +48,11 @@ h2{
     text-decoration-thickness: 2px;
    
 }
+.instructions ol li::marker{
+    color: rgb(122, 18, 18);
+}
+
+
 .nutrition{
     margin-top: 20px;
     margin-bottom: 30px;
